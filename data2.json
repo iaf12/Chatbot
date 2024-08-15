@@ -1,0 +1,196 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "hi",
+                "hello",
+                "good morning",
+                "good afternoon",
+                "hey"
+            ],
+            "responses": [
+                "Hello there!",
+                "Hi!",
+                "How can I help you today?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "goodbye",
+                "see you later",
+                "talk to you later"
+            ],
+            "responses": [
+                "Goodbye!",
+                "See you later!",
+                "Have a nice day!"
+            ]
+        },
+        {
+            "tag": "how_am_i",
+            "patterns": [
+                "how are you?",
+                "how are you doing?",
+                "how's it going?"
+            ],
+            "responses": [
+                "I'm doing well, thanks for asking!",
+                "I'm good, how about you?",
+                "I'm happy to be here and helping you!"
+            ]
+        },
+        {
+            "tag": "company_location",
+            "patterns": [
+                "where are you located?",
+                "what is your address?",
+                "where is your office?"   
+            ],
+            "responses": [
+                "7900 SW 57th Ave, Suite 24, South Miami, FL, United States"
+            ]
+        },
+        {
+            "tag": "contact_number",
+            "patterns": [
+                "what is your contact number?",
+                "what is your phone number?",
+                "how can I reach you?",
+                "how to contact with you?"
+            ],
+            "responses": [
+                "(786) 383-2779, we are available Everyday 9 AM - 10 PM"
+            ]
+        },
+        {
+            "tag": "company_about",
+            "patterns": [
+                "what is you objectives?",
+                "what does your company do?",
+                "what is your business?",
+                "about your company",
+                "tell me about your company."
+            ],
+            "responses": [
+                "BRC Mind and Body Wellness Spa in South Miami offers a range of services, including cryotherapy, red light therapy, infrared sauna, hyperbaric chamber, and meditation. Using advanced technology, we focus on enhancing your overall well-being—both mind and body. Whether you seek relaxation, stress relief, or a holistic health approach, our expert team provides personalized wellness experiences."
+            ]
+        },
+        {
+            "tag": "services",
+            "patterns": [
+                "what services do you offer?",
+                "what therapies do you provide?",
+                "what are your services?"
+            ],
+            "responses": [
+                "There are mainly 5 types of therapy available, such as: \n 1. Whole Body Cryotherapy. \n 2. Red Light Therapy. \n 3. Vibroacoustic Therapy. \n 4. Far Infrared PEMF Sauna Therapy. \n 5. Mild Hyperbaric Oxygen Therapy."
+            ]
+        },
+        {
+            "tag": "benefits",
+            "patterns": [
+                "Advantages of these therapy",
+                "how will this help me?",
+                "what are the benefits?",
+                "how can this improve my health?"
+            ],
+            "responses": [
+                "There are several advantages of taking our services, like: \n 1. Detoxification and Cellular Health. \n 2. Pain Relief and Muscle Healing. \n 3. Improved Athletic Performance. \n 4. Skin Health and Anti-Aging. \n 5. Neurological Benefits and Cognitive Function. \n \n It's important to note that there are also potential benefits and contraindications associated with our services. To learn more in detail, you can visit this link: https://romero.sparktechwp.com/benefits-and-contraindication/"
+            ]
+        },
+        {
+            "tag": "about_whole_body_cryotherapy",
+            "patterns": [
+                "what is whole body cryotherapy?",
+                "tell me about whole body cryotherapy?",
+                "whole body cryotherapy benefits?"
+            ],
+            "responses": [
+                "Whole Body Cryotherapy: \n 1. May improve mood and reduce symptoms of anxiety and depression. Improves sleep quality. \n 2. Reduces inflammation, muscle soreness, and joint pain. \n 3. Neurotransmitter Regulation: Helps balance neurotransmitters such as serotonin and norepinephrine, contributing to better mental health. \n You can find more information about the benefits and contraindications of this service in this link: https://romero.sparktechwp.com/benefits-and-contraindication/"
+            ]
+        },
+        {
+            "tag": "about_red_light_therapy",
+            "patterns": [
+                "what is red light therapy?",
+                "tell me about red light therapy?",
+                "red light therapy benefits?"
+            ],
+            "responses": [
+                "Red Light Therapy: \n 1. May help improve both anxiety and depression. Improves sleep quality. \n 2. Red light therapy enhances mitochondrial function, leading to increased ATP production, which is crucial for brain energy and cognitive performance. \n You can find more information about the benefits and contraindications of this service in this link: https://romero.sparktechwp.com/benefits-and-contraindication/"
+            ]
+        },
+        {
+            "tag": "about_Vibroacoustic_Therapy",
+            "patterns": [
+                "what is vibroacoustic therapy?",
+                "tell me about vibroacoustic therapy?",
+                "vibroacoustic therapy benefits?"
+            ],
+            "responses": [
+                "Vibroacoustic Therapy Lounger: \n 1. It may help lower anxiety and stress levels and promote deep relaxation. Enhances sleep quality and duration. \n You can find more information about the benefits and contraindications of this service in this link: https://romero.sparktechwp.com/benefits-and-contraindication/"
+            ]
+        },
+        {
+            "tag": "about_fra_infareed",
+            "patterns": [
+                "what is far infrared therapy?",
+                "tell me about far infrared therapy?",
+                "far infrared therapy benefits?"
+            ],
+            "responses": [
+                "Far-Infrared PEMF Sauna Therapy: \n 1. Reduces muscle and joint pain and improves circulation. \n You can find more information about the benefits and contraindications of this service in this link: https://romero.sparktechwp.com/benefits-and-contraindication/"
+            ]
+        },
+        {
+            "tag": "about_mild_hyperbaric_therapy",
+            "patterns": [
+                "what is mild hyperbaric therapy?",
+                "tell me about mild hyperbaric therapy?",
+                "mild hyperbaric therapy benefits?"
+            ],
+            "responses": [
+                "Mild-Hyperbaric Therapy: \n 1. May help reduce symptoms of anxiety and depression. Improves sleep. \n 2. Enhances cellular repair and regeneration. \n \n You can find more information about the benefits and contraindications of this service in this link: https://romero.sparktechwp.com/benefits-and-contraindication/"
+            ]
+        },
+        {
+            "tag": "price",
+            "patterns": [
+                "what is the price?",
+                "how much does it cost?",
+                "what is your fee?",
+                "what is the Price?",
+                "price of the services?"
+            ],
+            "responses": [
+                "It depends on the package (3 months) which you will pick. There are 3 packages: \n 1. Gold Package: $1500 \n 2. Platinum Package: $2500 \n 3. Diamond Package: $3500 \n \n For more information, kindly click https://romero.sparktechwp.com/3-month-membership-package/"
+            ]
+        },
+        {
+            "tag": "how_to_take_therapy",
+            "patterns": [
+                "how to take the therapy?",
+                "how to prepare for therapy?",
+                "what to do before therapy?"
+            ],
+            "responses": [
+                "You will be guided by our service holders. \n Moreover, you will get some related information from this page: https://romero.sparktechwp.com/how-to-prepare-for-your-therapy-session/"
+            ]
+        },
+        {
+            "tag": "number_of_sessions",
+            "patterns": [
+                "how many times I will have to take the therapies?",
+                "how many sessions do I need?",
+                "number of sessions required?",
+                "how long is the therapy?"
+            ],
+            "responses": [
+                "The recommended number of therapy sessions can vary widely depending on individual needs, goals, and the nature of the issues being addressed. For many people, starting with weekly sessions is common, especially in the initial phases of therapy, to build a strong therapeutic relationship and establish a foundation for progress."
+            ]
+        }
+    ]
+}
